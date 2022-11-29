@@ -1,0 +1,16 @@
+,variable,type,description
+0,name,object,Business name
+1,type_company,object,"Type of company: Trucking company, Warehouse, Shipping company, etc"
+2,lat,float64,Latitude
+3,lon,float64,Longitude
+4,city,object,City
+5,avg_stars_num,float64,Average received stars
+6,n_reviews_num,float64,Total number of reviews
+7,encoded_user,object,Reviewer id
+8,local_guide,float64,"Flag: 1 if reviewer is local guide, otherwise 0"
+9,clean_other_review_num,float64,Number of other reviews written by the same reviewer
+10,published_date,object,Date of publication of the review
+11,today_date,object,Date of gathering of the review
+12,stars_num,float64,Stars associated to one review
+13,review_EN,object,Review text in English
+14,original_lang,object,"Is ENG if original language is English, otherwise NOT_ENG"
