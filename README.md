@@ -14,6 +14,13 @@ The components of the TOP Dashboard include:
 - performance/rating/positive&negative reviews over time
 - other insights related to some companies impact on environment and society from additional data sources
 
+In the Data folder you can find the following files:
+- TechLabsDataset.csv, reference dataset dataset
+- TechLabsDataset_Dictionary.csv, the data dictionary explaining the variables contained in the dataset
+- Annotations_annotatorname.csv, annotation files containing annotated reviews per sentiment(positive/negative/neutral) and per reviewer profile (client/employee/unknown)
+- Getting Started_GoogleForm_Responses.csv, files containing the responses on the google form (https://forms.gle/WEaiN3dmCWUJSW387) filled out by all team members at the start of the project
+
+
 
 <b>Folder content</b>
 
