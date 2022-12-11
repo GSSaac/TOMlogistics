@@ -1,0 +1,33 @@
+name: TOMlogistics
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - scipy
+  - pandas
+  - scikit-learn
+  - tk
+  - nltk
+  - spacy
+  - beautifulsoup4
+  - selenium
+  - networkx
+  - more-itertools
+  - requests
+  - pillow
+  - geopy
+  - emoji
+  - wordcloud
+  - python-dateutil
+  - matplotlib
+  - seaborn
+  - pip
+  - plotly=5.11.0
+  - chart-studio
+  - dash-table
+  - dash-core-components
+  - dash-html-components
+  - dash-bootstrap-components
+  - jupyter
+prefix: /Users/giu/opt/anaconda3/envs/TOMlogistics
