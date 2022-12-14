@@ -109,7 +109,7 @@ window.geometry("600x600+10+10")
 # set window title
 window.title('© SAAC 2022  - TOM in Logistics: Annotation GUI - ')
 # resize to false
-window.resizable(False, False) 
+# window.resizable(False, False) 
 # initial value to take from random index
 window._my_hidden_value = 0
 
@@ -143,9 +143,11 @@ lbl=Label(window, text="Read the review (scroll text to see more)", fg='black', 
 lbl.place(x=x_all, y=k)
 
 # text of review
-txtfld = Text(window, height = 5, width = 60, wrap="word", bg = "lightgray", 
-              yscrollcommand=scrollbar.set,padx = 20, pady = 20, font = ("Courier", 12))
-txtfld.pack( side = LEFT, fill = BOTH )
+txtfld = Text(window,  wrap="word", bg = "lightgray", height = 5, width = 60,
+              yscrollcommand=scrollbar.set,padx = 20, pady = 20, font = ("Courier", 12))#
+# txtfld.pack( side = LEFT, fill = BOTH )
+# txtfld.pack(fill=BOTH, expand=1)
+
 
 # set scrollbar for text review
 scrollbar.config(command=txtfld.yview)
